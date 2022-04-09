@@ -11,7 +11,7 @@
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
               <p class="uppercase_text">ENVOYEZ-NOUS UN MAIL : </p>
-              <a href="mailto:info@example.com">nous@gmail.com</a> </div>
+              <a href="mailto:info@example.com">mousbadji@gmail.com</a> </div>
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-phone" aria-hidden="true"></i> </div>
               <p class="uppercase_text">APPELEZ-NOUS : </p>

@@ -13,7 +13,7 @@ error_reporting(0);
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>automobiles</title>
+<title>Maison</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -53,8 +53,8 @@ error_reporting(0);
       <div class="row">
         <div class="col-md-5 col-md-push-7">
           <div class="banner_content">
-            <h1>TROUVEZ LE BON APPARTEMENT POUR VOUS.</h1>
-            <p>Nous avons plus d'un millier d'appartments à choisir. </p>
+            <h1>TROUVEZ LA BONNE Maison POUR VOUS.</h1>
+            <p>Nous avons plus d'un millier de maisons à choisir. </p>
             <a href="#" class="btn">En savoir plus <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>
         </div>
       </div>
@@ -68,16 +68,16 @@ error_reporting(0);
 <section class="section-padding gray-bg">
   <div class="container">
     <div class="section-header text-center">
-      <h2>Trouvez <span>l'appartment idéal pour vous</span></h2>
-      <p>De grandes offres pour les locations de appartments, journaliers, en semaine, ou de longue durée. Trouver les meilleurs tarifs en ligne, pour votre prochaine Location de appartment en quatre étapes. Réservez maintenant à de tarifs bas et économisez.</p>
-    <p> Notre bût est d'aider les clients sélectionner la bonne location de appartment. Avant de réserver, Nous vous indiquons tous ce dont vous aurez besoin.</p>
+      <h2>Trouvez la meilleure <span>Maison pour vous</span></h2>
+      <p>De grandes offres pour les locations de maisons, journaliers, en semaine, ou de longue durée. Trouver les meilleurs tarifs en ligne, pour votre prochaine Location de maison en quatres étapes. Réservez maintenant à de tarifs bas et économisez.</p>
+    <p> Notre bût est d'aider les clients sélectionner la bonne location de maison. Avant de réserver, Nous vous indiquons tous ce dont vous aurez besoin.</p>
     </div>
     <div class="row"> 
       
       <!-- Nav tabs -->
       <div class="recent-tab">
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">Nouvels appartments disponibles</a></li>
+          <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">Nouvelle Maisons</a></li>
         </ul>
       </div>
       <!-- Recently Listed New Cars -->
@@ -100,8 +100,8 @@ foreach($results as $result)
 <div class="car-info-box"> <a href="vehical-details.php?vhid=<?php echo htmlentities($result->id);?>"><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" class="img-responsive" alt="image"></a>
 <ul>
 <li><i class="fa fa-car" aria-hidden="true"></i><?php echo htmlentities($result->FuelType);?></li>
-<li><i class="fa fa-calendar" aria-hidden="true"></i><?php echo htmlentities($result->ModelYear);?> Modele</li>
-<li><i class="fa fa-user" aria-hidden="true"></i><?php echo htmlentities($result->SeatingCapacity);?> Places</li>
+<li><i class="fa fa-calendar" aria-hidden="true"></i><?php echo htmlentities($result->ModelYear);?> Pieces</li>
+<li><i class="fa fa-user" aria-hidden="true"></i><?php echo htmlentities($result->SeatingCapacity);?> chambres</li>
 </ul>
 </div>
 <div class="car-title-m">
@@ -137,7 +137,7 @@ foreach($results as $result)
         <div class="fun-facts-m">
           <div class="cell">
             <h2><i class="fa fa-car" aria-hidden="true"></i>1200+</h2>
-            <p>appartments neuves</p>
+            <p>Maisons/Villa</p>
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ foreach($results as $result)
         <div class="fun-facts-m">
           <div class="cell">
             <h2><i class="fa fa-car" aria-hidden="true"></i>1000+</h2>
-            <p>appartments d'occasion</p>
+            <p>Partenaires</p>
           </div>
         </div>
       </div>
